@@ -1,3 +1,8 @@
+"""
+This is a divide-and-conquer algo, it breaks the list into smaller lists and then compares each value in the opposite sub-lists with each other to build back one sorted list
+
+-- EFFECTIVE FOR VERY LARGE LISTS with O(n log n) efficiency in the best case scenario
+"""
 def sort(arr: list[int]):
     n = len(arr)
     if n > 1:
