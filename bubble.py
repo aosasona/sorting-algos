@@ -1,3 +1,6 @@
+"""
+This compares the next array element (moving forward)
+"""
 def sort(arr: list[int]):
     length = len(arr)
 

@@ -1,3 +1,6 @@
+"""
+Goes through every element on each iteration to find the smallest one at that point (minus the previously sorted ones) and put it in the first, second etc positions
+"""
 def sort(arr):
     for i in range(len(arr) - 1):
         minimum_pos = i
